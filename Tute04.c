@@ -6,6 +6,22 @@ Do not change the code given in the main() function when you are implementing yo
 
 #include <stdio.h>
 
+//function - Find minimum
+int minimum(int no1, int no2)
+{
+    return (no1 > no2) ? no2 : no1;
+}
+//function - Find maximum
+int maximum(int no1, int no2)
+{
+    return (no1 > no2) ? no1 : no2;
+}
+//function - Find multiplication
+int multiply(int no1, int no2)
+{
+    return no1 * no2;
+}
+//main function
 int main() {
    int no1, no2;
    printf("Enter a value for no 1 : ");
